@@ -112,7 +112,7 @@ gulp.task('upload', function(){
 ## API
 ### uploadManifest(options)
 ### options
-以下字段都不许在调用接口的时候设置
+以下字段都必须在调用接口的时候设置
 #### options.url
 type:  string
 上传文件的接口地址
