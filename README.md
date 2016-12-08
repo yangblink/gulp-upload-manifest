@@ -83,7 +83,7 @@ gulp.task('upload', function(){
       .pipe(useref())
       .pipe(gulp.dest(dist_path))
       .pipe(exceptHtmlFilter)
-      .pipe(uploadManifest(weiyi_options))
+      .pipe(uploadManifest(options))
       .pipe(gulp.dest(dist_path))
       .on('finish', function() {
         var manifest = gulp.src("./"+dist_path+"/upload-manifest.json");
