@@ -95,7 +95,7 @@ gulp.task('upload', function(){
 })
 ```
 执行完`upload`任务后将会在`dist`目录下生成`upload-manifest.json`文件，该文件表示本地的资源文件同上传到服务器的资源文件的映射，并且`dist/app.html`中的资源将被替换成如下（app.html）：
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
