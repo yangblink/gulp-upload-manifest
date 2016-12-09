@@ -6,12 +6,12 @@
     "through2": "^2.0.3"
   },
   "description": "根据接口生成本地资源对应服务端资源的映射文件",
-  "homepage": "https://github.com/yqb1989/gulp-upload-manifest",
+  "homepage": "https://github.com/yangblink/gulp-upload-manifest",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
   "name": "gulp-upload-manifest",
-  "repository": "yqb1989/gulp-upload-manifest",
+  "repository": "yangblink/gulp-upload-manifest",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
